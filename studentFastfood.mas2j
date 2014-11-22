@@ -1,0 +1,11 @@
+MAS studentFastfood {
+
+	infrastructure: Centralised
+
+	agents:
+		agent1 generator.asl;
+		agent2 customer.asl;
+
+	aslSourcePath:
+		"src/asl";
+}
